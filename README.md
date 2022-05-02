@@ -15,8 +15,8 @@ we can use Mel frequency cepstral coefficient ( Mfcc ) .
 
 ![image](https://user-images.githubusercontent.com/57018506/166321360-e451b81f-0330-4ef3-83dc-4b51ebd50fb7.png)
 
-##Mel frequency cepstral coefficient
-##(MFCC)
+#Mel frequency cepstral coefficient
+#(MFCC)
 
 This is the most important thing to make us recognize the speech .
 because this tool make us to convert the sound wave to image
@@ -27,7 +27,7 @@ data to give it to the model to train by it .
 
 ![image](https://user-images.githubusercontent.com/57018506/166322418-e18b8c4a-d3a3-4aca-bdfa-17b67ed895ba.png)
 
-##Preparing the data 
+#Preparing the data 
 
 This the first step to build the speech recognition model .
 In this step we need some requirement
@@ -70,7 +70,7 @@ json library .
 now we are ready to build a model by our own data which we
 preparing above .
 
-##Building CNN model
+#Building CNN model
 
 ![image](https://user-images.githubusercontent.com/57018506/166322718-4663b5ac-0365-4893-8b66-10e79d14f7b3.png)
 
@@ -108,7 +108,7 @@ activation function " relu " and this is relu function f(x)=max(0,x)
 
 ![image](https://user-images.githubusercontent.com/57018506/166322929-8492f6ef-c06f-472c-a126-5bd1a425b345.png)
 
-##activationfunction
+#activationfunction
 
 activation functions give out the final value given out from a neuron.
 So, an activation function is basically just a simple function that
@@ -130,7 +130,7 @@ also want our neural network to learn non-linear states as we give it
 complex real-world information such as image, video, text, and
 sound.
 
-##Max pooling
+#Max pooling
 
 Pooling layers are used to reduce the dimensions of the feature
 maps. Thus, it reduces the number of parameters to learn and the
@@ -189,16 +189,16 @@ to avoid the processing doesn't give us a improvement in the
 accuracy we use Earlystopping when the change in delta loss is
 0.001 and in this model we use "sparse_categorical_crossentropy" as a loss function
 
-##summary of model
+#summary of model
 
 ![image](https://user-images.githubusercontent.com/57018506/166323558-19da14de-5c9e-4983-9e2f-984ef58ff443.png)
 
-##plot the model
+#plot the model
 
 ![image](https://user-images.githubusercontent.com/57018506/166323685-8488b8c2-4579-40b9-ab46-cc22d6eae699.png)
 
 
-##Recording
+#Recording
 
 We need to record our voice and make a prediction for this audio file .
 The requirement for this step
@@ -212,7 +212,7 @@ record for 2 second and take the voice in middle of this audio file to
 avoid the noise and the silence .
 After we record the voice we save it by output.wave file
 
-##Prediction
+#Prediction
 
 Finally we reach to the final step in this model now we can record a
 voice and we have a model that contain data cam make us to detect
@@ -240,7 +240,7 @@ in the end we write the word which the model predicted in a file
 because if anyone need to use this word as a speech command
 service he will read it from the file and do what he wan
 
-##Online model
+#Online model
 
 if you can provide a network in your application you can use a google
 assistant model by using this code 
