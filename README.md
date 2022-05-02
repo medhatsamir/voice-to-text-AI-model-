@@ -1,4 +1,5 @@
 # voice-to-text-AI-model
+
 in this project we aim to learn how to build a model to convert the command voice to text and save it in file .
 
 Ai can’t deal with the sound waves so if we need to recognize the
@@ -13,8 +14,10 @@ What if we draw every number of this frequency by a specific color so
 we can use Mel frequency cepstral coefficient ( Mfcc ) .
 
 ![image](https://user-images.githubusercontent.com/57018506/166321360-e451b81f-0330-4ef3-83dc-4b51ebd50fb7.png)
+
 ##Mel frequency cepstral coefficient
 ##(MFCC)
+
 This is the most important thing to make us recognize the speech .
 because this tool make us to convert the sound wave to image
 contain all the frequency and every specific frequency have a specific
@@ -24,6 +27,7 @@ data to give it to the model to train by it .
 ![image](https://user-images.githubusercontent.com/57018506/166322418-e18b8c4a-d3a3-4aca-bdfa-17b67ed895ba.png)
 
 ##Preparing the data 
+
 This the first step to build the speech recognition model .
 In this step we need some requirement
 1- Python 3.8
