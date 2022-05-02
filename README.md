@@ -24,6 +24,7 @@ contain all the frequency and every specific frequency have a specific
 color .
 Before we make a model to recognize the speech we need a lot o
 data to give it to the model to train by it .
+
 ![image](https://user-images.githubusercontent.com/57018506/166322418-e18b8c4a-d3a3-4aca-bdfa-17b67ed895ba.png)
 
 ##Preparing the data 
