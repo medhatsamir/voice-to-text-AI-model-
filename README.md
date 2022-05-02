@@ -66,6 +66,7 @@ now we are ready to build a model by our own data which we
 preparing above .
 
 ##Building CNN model
+
 ![image](https://user-images.githubusercontent.com/57018506/166322718-4663b5ac-0365-4893-8b66-10e79d14f7b3.png)
 
 The requirements in the 2nd step are
@@ -125,6 +126,7 @@ complex real-world information such as image, video, text, and
 sound.
 
 ##Max pooling
+
 Pooling layers are used to reduce the dimensions of the feature
 maps. Thus, it reduces the number of parameters to learn and the
 amount of computation performed in the network.
@@ -183,6 +185,7 @@ accuracy we use Earlystopping when the change in delta loss is
 0.001 and in this model we use "sparse_categorical_crossentropy" as a loss function
 
 ##summary of model
+
 ![image](https://user-images.githubusercontent.com/57018506/166323558-19da14de-5c9e-4983-9e2f-984ef58ff443.png)
 
 ##plot the model
@@ -191,6 +194,7 @@ accuracy we use Earlystopping when the change in delta loss is
 
 
 ##Recording
+
 We need to record our voice and make a prediction for this audio file .
 The requirement for this step
 1- Pyaudio library
@@ -204,6 +208,7 @@ avoid the noise and the silence .
 After we record the voice we save it by output.wave file
 
 ##Prediction
+
 Finally we reach to the final step in this model now we can record a
 voice and we have a model that contain data cam make us to detect
 the word that we say
